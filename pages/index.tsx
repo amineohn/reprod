@@ -1,115 +1,32 @@
 import type { NextPage } from "next";
 import React from "react";
-import FadeIn from "react-fade-in";
 const Home: NextPage = () => {
   return (
     <>
-      <div className="w-full h-20 bg-gray-200 absolute"></div>
-      <div className="flex flex-row">
-        <div className="w-28 h-screen bg-gray-200 z-50">
-          <div className="flex flex-col justify-between py-4 items-center w-20 h-full bg-gray-300/40 m-auto space-y-6">
-            <div className="px-4 space-y-4">
-              <button className="px-2 py-2 rounded-xl hover:bg-indigo-400 text-gray-600 hover:text-gray-50 transition">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                  />
-                </svg>
-              </button>
-              <button className="px-2 py-2 rounded-xl hover:bg-indigo-400 text-gray-600 hover:text-gray-50 transition">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 "
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 13h6M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"
-                  />
-                </svg>
-              </button>
-              <button className="px-2 py-2 rounded-xl hover:bg-indigo-400 text-gray-600 hover:text-gray-50 transition">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7 "
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
-                  />
-                </svg>
-              </button>
-              <button className="px-2 py-2 rounded-xl hover:bg-indigo-400 text-gray-600 hover:text-gray-50 transition">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                  />
-                </svg>
-              </button>
-              <button className="px-2 py-2 rounded-xl hover:bg-indigo-400 text-gray-600 hover:text-gray-50 transition">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
-              </button>
-              <button className="px-2 py-2 rounded-xl hover:bg-indigo-400 text-gray-600 hover:text-gray-50 transition">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"
-                  />
-                </svg>
-              </button>
-            </div>
-            <button className="px-2 py-2 rounded-xl hover:bg-indigo-400 text-gray-600 hover:text-gray-50 transition bottom-0">
+      <div className="h-16 bg-slate-900/80 absolute w-full">
+        <div className="flex justify-start items-center w-[1220px] py-3 m-auto space-x-4">
+          <div className="space-x-4 flex justify-between items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4 text-gray-300"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+            <span className="text-gray-300 text-sm font-medium">
+              Search by Vin Code
+            </span>
+            <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-7 w-7"
+                className="h-4 w-4 text-gray-300"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -118,11 +35,72 @@ const Home: NextPage = () => {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                  d="M19 9l-7 7-7-7"
                 />
               </svg>
-            </button>
+            </span>
           </div>
+          <div>
+            <input
+              type="text"
+              className="px-2 bg-transparent border-b-gray-400 placeholder-gray-300 font-medium text-sm py-2 border border-t-transparent border-l-transparent border-r-transparent focus:outline-none text-gray-300"
+              placeholder="Enter Vin Code"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-row">
+        <div className="w-60 flex flex-col h-screen bg-slate-900 z-50 px-3 py-3 space-y-2">
+          <h1 className="text-2xl font-medium text-sky-400 pb-5">
+            Hello there
+          </h1>
+          <div className="inline-flex items-center space-x-2">
+            <img
+              src="https://robohash.org/natusvoluptatemex.png?size=300x300&set=set1"
+              className="h-10 w-10 bg-lime-500 rounded-full"
+            />
+            <div className="flex flex-col">
+              <span className="text-xs font-semibold text-gray-50">
+                Amine zebi
+              </span>
+              <span className="text-xs font-medium text-gray-50">Amine 2</span>
+              <a className="text-xs font-medium text-neutral-500">Sign out</a>
+            </div>
+          </div>
+          <button className="flex flew-row space-x-2 px-2 py-2 text-gray-400 hover:text-gray-50 transition">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
+              />
+            </svg>
+            <span className="text-sm">lol</span>
+          </button>
+          <button className="flex flew-row space-x-2 px-2 py-2 text-gray-400 hover:text-gray-50 transition">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
+              />
+            </svg>
+            <span className="text-sm">lol</span>
+          </button>
         </div>
 
         <div className="container m-auto">
